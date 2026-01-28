@@ -1,0 +1,10 @@
+streamlit
+pandas
+numpy
+scikit-learn
+tensorflow
+plotly
+gym
+stable-baselines3
+joblib
+torch

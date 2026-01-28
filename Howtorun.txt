@@ -1,0 +1,6 @@
+pip install -r requirements.txt
+
+python lstm/train_lstm_model.py
+python rl/train_rl_agent.py
+
+streamlit run app.py
