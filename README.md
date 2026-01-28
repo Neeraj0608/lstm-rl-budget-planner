@@ -24,7 +24,7 @@ An intelligent personal finance system that predicts future expenses using **LST
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/Neeraj0608/AI-Budget-Optimizer.git
+git clone https://github.com/Neeraj0608/lstm-rl-budget-planner.git
 cd AI-Budget-Optimizer
 
 ### 2️⃣ Install dependencies
