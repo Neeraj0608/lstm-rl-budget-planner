@@ -25,7 +25,7 @@ An intelligent personal finance system that predicts future expenses using **LST
 ### 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/Neeraj0608/lstm-rl-budget-planner.git
-cd AI-Budget-Optimizer
+cd lstm-rl-budget-planner
 ```
 ### 2️⃣ Install dependencies
 ```bash
@@ -41,15 +41,14 @@ python -m rl.train_rl_agent
 streamlit run app.py
 ```
 ---
-## 🏗 Detailed Working Flow
+## 🏗 Detailed Workflow
 
-User uploads historical expense data
-Data is cleaned and aggregated
-LSTM predicts future daily and monthly expenses
-RL agent receives:
-  Category-wise spending ratios
-  Predicted future expense
-  Available budget (income − savings)
-  RL agent allocates budget optimally across categories
-
-Results are visualized on the dashboard
+- User uploads historical expense data
+- Data is cleaned and aggregated
+- LSTM model predicts future daily and monthly expenses
+- Reinforcement Learning (RL) agent receives:
+  - Category-wise spending ratios
+  - Predicted future expenses
+  - Available budget *(income − savings)*
+- RL agent optimally allocates the budget across expense categories
+- Results are visualized on the dashboard
