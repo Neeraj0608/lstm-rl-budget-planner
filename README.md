@@ -1,4 +1,4 @@
-# AI Budget Optimizer 💰
+# AI-Based Future Expense Prediction and Optimal Budget Allocation using LSTM and Reinforcement Learning 💰
 
 An intelligent personal finance system that predicts future expenses using **LSTM** and allocates budgets optimally using **Reinforcement Learning (PPO)**.
 
@@ -41,7 +41,10 @@ python -m rl.train_rl_agent
 streamlit run app.py
 ```
 ---
+
 ## 🏗 Detailed Workflow
+<img width="1818" height="796" alt="image" src="https://github.com/user-attachments/assets/71949cf9-31b4-44de-a217-16358757236c" />
+<img width="1810" height="707" alt="image" src="https://github.com/user-attachments/assets/ffbd9ef0-167b-4014-b2fd-47bf997c0e77" />
 
 - User uploads historical expense data
 - Data is cleaned and aggregated
