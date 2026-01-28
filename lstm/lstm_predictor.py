@@ -2,7 +2,7 @@ import numpy as np
 import joblib
 from tensorflow.keras.models import load_model
 
-model = load_model("models/lstm_expense_model.h5")
+model = load_model("models/lstm_expense_model.h5",compile=False)
 scaler = joblib.load("models/scaler.save")
 
 def lstm_predict(daily_values, days=7):
