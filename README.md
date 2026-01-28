@@ -26,21 +26,22 @@ An intelligent personal finance system that predicts future expenses using **LST
 ```bash
 git clone https://github.com/Neeraj0608/lstm-rl-budget-planner.git
 cd AI-Budget-Optimizer
-
+```
 ### 2️⃣ Install dependencies
 ```bash
 pip install -r requirements.txt
-
+```
 ### 3️⃣ (Optional) Train models
+```
 python -m lstm.train_lstm_model
 python -m rl.train_rl_agent
-
+```
 ### 4️⃣ Run the application
-
+```
 streamlit run app.py
-
+```
 ---
-🏗 Detailed Working Flow
+## 🏗 Detailed Working Flow
 
 User uploads historical expense data
 Data is cleaned and aggregated
